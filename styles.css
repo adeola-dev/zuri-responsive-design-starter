@@ -1,3 +1,114 @@
+
+@media screen  and (max-width: 768px){
+    div.nav-bar {
+       display: flex;
+       justify-content: space-around;
+       padding: 1rem;
+       width: 100vw;
+    }
+    .show-links {
+        height: 10rem;
+        display: block;
+    }
+    .toggle-menu {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: block;
+        outline: none;
+    }
+    div.logo {
+        font-size: 1.3rem;
+    }
+    ul.nav-links {
+        flex-direction: column;
+        display: none;
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+    ul li {
+        margin: 0;
+        font-size: 1rem;
+    }
+    ul li a {
+        display: block;
+    }
+    div.hero-section {
+        padding: 5rem 2rem;
+    }
+    div.hero-content-heading h3 {
+        text-align: center;
+        font-size: 1.6rem;
+        text-transform: none; 
+    }
+    div.hero-content-heading p {
+        font-size: 0.6rem;
+        
+    }
+    div.hero-background-pos {
+        display: none;
+    }
+    div.hero-background {
+        padding: 3rem;
+    }
+    div.background {
+        padding: 10px 30px;
+        /* width: 300px;
+        height: 250px;  */
+    }
+    div.background h4 {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    div.background p {
+        padding-left: 1rem;
+        font-size: 0.8rem;
+        width: 300px;
+        height: 250px;
+    }
+    div.snapshot-team {
+        padding: 2rem;
+        text-align: center;
+    }
+    div.snapshot-team h2 {
+        font-size: 1.2rem;
+    }
+    div.snapshot-team p {
+        font-size: 0.8rem;
+    }
+    div.snapshot-box {
+        padding: 2rem 0rem;
+    }
+    div.snapshot-box-content {
+        display: flex;
+        flex-direction: column;
+    }
+    div.box1 {
+        width: 300px;
+        height: 230px;
+    }
+    div.box3 {
+        width: 300px;
+        height: 230px;
+    }
+    textarea {
+        width: 100px;
+        height: 150px;
+    }
+    input[type="name"] {
+        padding: 10px 20px;
+        width: 100%;
+    }
+    input[type="email"] {
+        padding: 10px 20px;
+        width: 100%;
+    }
+    div.footer h6 {
+        font-size: 0.8rem;
+        padding-top: 6rem;
+    }
+}
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
 * {
@@ -6,7 +117,13 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-
+.toggle-menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    outline: none;
+}
 div.nav-bar {
     display: flex;
     justify-content: space-between;
